@@ -1,0 +1,20 @@
+uuid: 1d3babc5-85c9-4015-8e6f-245b6edfc5a1
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_db
+_core:
+  default_config_hash: 35dHYROHADEx6kqKpFXH2SKZDilk4OiMaLFLSHfcGGg
+id: social_database
+name: 'Social Database'
+description: 'Default database server created for the Social distribution.'
+backend: search_api_db
+backend_config:
+  database: 'default:default'
+  database_text: ''
+  min_chars: 3
+  partial_matches: true
+  autocomplete:
+    suggest_suffix: true
+    suggest_words: true

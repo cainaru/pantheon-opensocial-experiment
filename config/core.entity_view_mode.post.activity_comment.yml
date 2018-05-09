@@ -1,0 +1,12 @@
+uuid: 8d1169d1-8bfa-494e-8230-3aad33a63af5
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_post
+_core:
+  default_config_hash: cCy_sVSMi5Y7Emunx-Us8Qb9yzlw-GSrnkpW8LRWoD8
+id: post.activity_comment
+label: 'Activity comment'
+targetEntityType: post
+cache: true

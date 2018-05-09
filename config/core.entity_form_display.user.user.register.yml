@@ -1,0 +1,25 @@
+uuid: b3d90973-c43a-4981-ab06-8807f1556a87
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.user.register
+  module:
+    - user
+_core:
+  default_config_hash: DumuFlmZ-VVW13ViC_zDIFb-Oh0XmRPeDkFerAGVfdM
+id: user.user.register
+targetEntityType: user
+bundle: user
+mode: register
+content:
+  account:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  contact: true
+  groups: true
+  language: true
+  timezone: true

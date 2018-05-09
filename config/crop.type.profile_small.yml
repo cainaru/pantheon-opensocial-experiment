@@ -1,0 +1,14 @@
+uuid: cfb82a54-77c1-48a8-9802-c4b1ab4f71bc
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dlzhxhc9R3WQnyWJ8TkCz2Ekote8VmPbaRRfj2wNtpM
+label: 'Profile small'
+id: profile_small
+description: 'Small sized profile image'
+aspect_ratio: '24:24'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: null
+hard_limit_height: null

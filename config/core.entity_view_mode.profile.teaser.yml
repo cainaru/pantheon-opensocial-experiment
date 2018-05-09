@@ -1,0 +1,12 @@
+uuid: 62f20db3-81aa-4d15-97ed-201fa80cad37
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+_core:
+  default_config_hash: QwHKCTpE1suKE_XELJtpxPdCy6856mg2nrGY2GQI6tw
+id: profile.teaser
+label: Teaser
+targetEntityType: profile
+cache: true

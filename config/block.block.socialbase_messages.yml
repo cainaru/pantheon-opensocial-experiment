@@ -1,0 +1,20 @@
+uuid: bb4a152a-6e21-42ca-ba93-25de091196ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - socialbase
+id: socialbase_messages
+theme: socialbase
+region: content
+weight: -17
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

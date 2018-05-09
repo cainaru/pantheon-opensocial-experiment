@@ -1,0 +1,10 @@
+uuid: 4bbc14c6-ec77-431b-b435-cfe60462fbe4
+langcode: en
+status: true
+dependencies:
+  module:
+    - mentions
+id: mentions.token
+label: Token
+targetEntityType: mentions
+cache: true

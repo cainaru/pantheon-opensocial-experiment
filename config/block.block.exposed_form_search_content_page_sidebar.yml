@@ -1,0 +1,29 @@
+uuid: 5f8b3dd2-1304-44e4-ac6d-473a1b49c9b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.search_content
+  module:
+    - system
+    - views
+  theme:
+    - socialbase
+id: exposed_form_search_content_page_sidebar
+theme: socialbase
+region: complementary_top
+weight: 3
+provider: null
+plugin: 'views_exposed_filter_block:search_content-page'
+settings:
+  id: 'views_exposed_filter_block:search_content-page'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: Filter
+visibility:
+  request_path:
+    id: request_path
+    pages: "/search/content\r\n/search/content/*"
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,21 @@
+uuid: 722423af-7abd-41d4-986c-9dee63a3c341
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: bD2RG8U02z8GSE4RHHEerQVWEim3RMBwurQSAg3fVX8
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content: {  }
+hidden:
+  groups: true
+  groups_type_closed_group: true
+  groups_type_open_group: true
+  groups_type_public_group: true
+  member_for: true
+  profile_main: true
+  profile_profile: true

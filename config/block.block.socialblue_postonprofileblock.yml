@@ -1,0 +1,26 @@
+uuid: e3fa24c9-924a-463d-b244-4fa3c008f245
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_post
+    - system
+  theme:
+    - socialblue
+id: socialblue_postonprofileblock
+theme: socialblue
+region: hidden
+weight: -9
+provider: null
+plugin: post_profile_block
+settings:
+  id: post_profile_block
+  label: 'Post on profile block'
+  provider: social_post
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/*/stream'
+    negate: false
+    context_mapping: {  }
