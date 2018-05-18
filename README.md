@@ -386,11 +386,11 @@ Once the site is built, the link to its Github repository will be printed in you
 
 I used information from the following links to help guide me along the way
 
-https://github.com/pantheon-systems/example-drops-8-composer/pull/93
-https://github.com/pantheon-systems/example-drops-8-composer/tree/contenta--take2--install-hack
-https://github.com/pantheon-systems/terminus-build-tools-plugin/issues/43
-https://github.com/goalgorilla/open_social
-https://github.com/goalgorilla/social_template/blob/master/composer.json
-https://github.com/pantheon-systems/terminus-build-tools-plugin
-https://pantheon.io/docs/guides/drupal-8-commerce/
-https://github.com/lquessenberry/OpenSocialOnPantheon/blob/master/composer.json <--- Note: super outdated, uses CircleCI 1.0 and very different structure, but a good reference material nonetheless
+* https://github.com/pantheon-systems/example-drops-8-composer/pull/93
+* https://github.com/pantheon-systems/example-drops-8-composer/tree/contenta--take2--install-hack
+* https://github.com/pantheon-systems/terminus-build-tools-plugin/issues/43
+* https://github.com/goalgorilla/open_social
+* https://github.com/goalgorilla/social_template/blob/master/composer.json
+* https://github.com/pantheon-systems/terminus-build-tools-plugin
+* https://pantheon.io/docs/guides/drupal-8-commerce/
+* https://github.com/lquessenberry/OpenSocialOnPantheon/blob/master/composer.json <--- Note: super outdated, uses CircleCI 1.0 and very different structure, but a good reference material nonetheless
