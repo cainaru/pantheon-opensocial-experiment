@@ -14,7 +14,7 @@ By default, Example Drops 8 Composer installs the standard profile as well as ex
 
 It took a lot of tinkering, researching and trial-and-erroring, but I came to the conclusion that things would probably go smoother if the project template I was using to automagically generate my Open Social Pantheon site via Pantheon's [Build Tools workflow](https://pantheon.io/docs/guides/build-tools/) was prepped to support Open social from the start. That way, there would be no need to fuss around with mismatched configuration after export and issues with tests failing. Hence, this project was born.
 
-Note: as a garden-variety Drupal sitebuilder, I might have made some novice mistakes in the steps I took to create this project, but this has served as a great learning experience. If anyone has any feedback, helpful tips, or suggestions feel free to reach out!
+**Note:** as a garden-variety Drupal sitebuilder, I might have made some novice mistakes in the steps I took to create this project, but this has served as a great learning experience. If anyone has any feedback, helpful tips, or suggestions feel free to reach out!
 
 ## Steps to reproduce
 
@@ -381,6 +381,10 @@ terminus build:project:create ./pantheon-opensocial-experiment the-name-of-your-
 Follow and answer any subsequent prompts, such as the password for logging into the site, the Organization (if any), and the GitHub and CircleCI tokens.
 
 Once the site is built, the link to its Github repository will be printed in your terminal window. 
+
+### Now What?
+
+IIRC at this point, I ended up cloning my newly-created Github repo to my local environment, and in the project root, ran `rm -rf .git` and then `cd ..`, and then ran `terminus build:project:create ./pantheon-opensocial-experiment opensocial-sandbox`, but will have to double check.
 
 ## Resources and Guides Used
 
