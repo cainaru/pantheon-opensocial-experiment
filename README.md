@@ -384,7 +384,7 @@ Once the site is built, the link to its Github repository will be printed in you
 
 ### Now What?
 
-IIRC at this point, I ended up cloning my newly-created Github repo to my local environment, and in the project root, ran `rm -rf .git` and then `cd ..`, and then ran `terminus build:project:create ./pantheon-opensocial-experiment opensocial-sandbox`, but will have to double check.
+After double checking, IIRC I think I actually used the local repository that generated this project to also generate my other Open Social sandbox site. I assume there is probably a better way to do this, but alas my gaps of knowledge don't help much.
 
 ## Resources and Guides Used
 
